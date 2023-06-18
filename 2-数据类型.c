@@ -16,5 +16,6 @@ int main()
 	//char e = 'a';
 	float f;//单精度浮点数= 4 byte
 	double g;//双精度浮点数= 8 byte
+	printf("%d\n",sizeof(int));//计算类型或者变量所占空间的大小
 	return 0;
 }
