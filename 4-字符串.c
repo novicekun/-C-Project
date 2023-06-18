@@ -14,5 +14,6 @@ int main()
 	char arr1[] = { "abc" };
 	char arr2[] = { 'a','b','c' };
 	int len = strlen("abc");//计算字符串长度
+	printf("%d\n",len);
 	return 0;
 }
