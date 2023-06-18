@@ -1,15 +1,20 @@
  #define  _CRT_SECURE_NO_WARNINGS
  #include<stdio.h>
-//Êı¾İÀàĞÍ
+//å•ä½
+//byte=8bit
+//kb=1024byte
+//mb=1024kb
+//...
+//æ•°æ®ç±»å‹
 int main()
 {
-	int a;//ÕûĞÎ
-	short b;//¶ÌÕûĞÎ(Ò²¿ÉÒÔĞ´³É short int£©
-	long c;//³¤ÕûĞÎ£¨Í¬ÉÏ long int)
-	long long d;//¸ü³¤µÄÕûĞÎ
-	char e;//×Ö·ûÊı¾İÀàĞÍ
+	int a;//æ•´å½¢= 4 byte
+	short b;//çŸ­æ•´å½¢(ä¹Ÿå¯ä»¥å†™æˆ short intï¼‰= 2 byte
+	long c;//é•¿æ•´å½¢ï¼ˆåŒä¸Š long int)= 4 byte
+	long long d;//æ›´é•¿çš„æ•´å½¢= 8 byte
+	char e;//å­—ç¬¦æ•°æ®ç±»å‹= 1 byte
 	//char e = 'a';
-	float f;//µ¥¾«¶È¸¡µãÊı
-	double g;//Ë«¾«¶È¸¡µãÊı
+	float f;//å•ç²¾åº¦æµ®ç‚¹æ•°= 4 byte
+	double g;//åŒç²¾åº¦æµ®ç‚¹æ•°= 8 byte
 	return 0;
 }
