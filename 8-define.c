@@ -1,12 +1,12 @@
  #define  _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
-#define NUM 1000//define¶¨Òå³£Á¿
-#define ADD(x,y) x+y
+#define NUM 1000//defineå®šä¹‰å¸¸é‡
+#define ADD(x,y) x+y//defineå®šä¹‰å®
 int main()
 {
 	printf("%d\n", NUM);
-	printf("%d\n", ADD(1,2));//½á¹ûÎª3
-	printf("%d\n", 2*ADD(1,2));//½á¹ûÎª4£¬ÒòÎª¶¨ÒåµÄºêÊÇÌæ»»£¬±í´ïÊ½¿ÉÒÔ±íÊ¾³É2*1+2
+	printf("%d\n", ADD(1,2));//ç»“æœä¸º3
+	printf("%d\n", 2*ADD(1,2));//ç»“æœä¸º4ï¼Œå› ä¸ºå®šä¹‰çš„å®æ˜¯æ›¿æ¢ï¼Œè¡¨è¾¾å¼å¯ä»¥è¡¨ç¤ºæˆ2*1+2
 
 	return 0;
 } 
