@@ -1,3 +1,8 @@
 # Project1
-学习c语言的全过程
-记录一下
+The process of learning the C language，documenting...
+
+MOTTO:
+      A true master is an eternal student，student too.
+FROM CN
+
+
